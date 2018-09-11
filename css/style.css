@@ -1,0 +1,86 @@
+body{
+    margin: auto;
+    max-height: 400px;
+    background-color: white;
+    background-image: url(../img/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+#main-header{
+    overflow: hidden;
+    background-color: rgba(80, 156, 255, 0.76);
+    text-align: center;
+}
+.contain{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    overflow: hidden;
+}
+.navbar li{
+    display: inline;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar li :visited{
+    color: white;
+}
+#co-header{
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    background-color:pink;
+    border:5px black solid;
+    width: 250px;
+    left: 600px;
+}
+#hobbies{
+    margin-top: 50px;
+    margin-left: 0%;
+    padding-left: 0%;
+    text-align: left;
+}
+#hobbies li{
+    list-style: none;
+}
+#myform{
+    position: relative;
+    top:200px;
+
+}
+ #selfie{
+    position: relative;
+    margin: auto;
+    float: right;
+    bottom: 421px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+} 
+   
+#main-footer{
+    clear: both;    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:5px;
+}
+.mainp{
+    position: absolute;
+    text-align: center;
+    left: 655px;
+}
+#p1{
+    background-color: rgba(255, 192, 252, 0.76);
+    border: black 2px solid;
+    text-align: center;
+    width:150px;
+    bottom: 130px;
+}
